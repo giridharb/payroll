@@ -23,7 +23,7 @@ Following are the features provided:
 $ composer install
 ```
 
-3. Create database localy and Open *.env* file and configure database and mail server
+3. Create database nad  Open *.env* file, configure database and mail server
 
 4. Next, You need to run following commands  from your terminal
 
