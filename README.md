@@ -15,7 +15,7 @@ Following are the features provided:
 
 ## Installation
 
-1. In order to install in your Laravel project, just run the *git clone https://github.com/giridharb/payroll.git* command from your terminal
+1. In order to install payroll project, just run the *git clone https://github.com/giridharb/payroll.git* command from your terminal
 
 2. Go to project cloned directory and run following command:
 
