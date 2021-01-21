@@ -21,6 +21,7 @@ Following are the features provided:
 
 ```
 $ composer install
+$ php artisan key:generate
 ```
 
 3. Create database and Copy .env.example file to .env and edit database credentials there
