@@ -99,7 +99,7 @@
                        
                         <div class="form-group col-md-4">
                           <label for="inputDateofBirth">Date of Birth</label>
-                          <input class="form-control" type="date" value="{{$employee->date_of_birth}}" placeholder="dd-mm-yyyy" 
+                          <input class="form-control" type="date" value="{{$employee->date_of_birth->format('Y-m-d')}}" placeholder="dd-mm-yyyy" 
         min="1997-01-01" max="{{ date('Y-m-d') }}"  id="inputDateofBirth" name="date_of_birth" required>
                           <div class="invalid-feedback">Enter date of birth.</div>
                         </div>
@@ -116,7 +116,7 @@
 
                         <div class="form-group col-md-4">
                           <label for="inputDateofJoining">Date of Joining</label>
-                          <input class="form-control" type="date" value="{{$employee->date_of_joining}}" placeholder="dd-mm-yyyy" 
+                          <input class="form-control" type="date" value="{{$employee->date_of_joining->format('Y-m-d')}}" placeholder="dd-mm-yyyy" 
         min="1997-01-01" max="{{ date('Y-m-d') }}"  id="inputDateofJoining" name="date_of_joining" required>
                           <div class="invalid-feedback">Enter date of Joining.</div>
                         </div>
