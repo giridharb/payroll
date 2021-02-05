@@ -21,14 +21,19 @@ Following are the features provided:
 
 ```
 $ composer install
-$ php artisan key:generate
 ```
 
 3. Create database and Copy .env.example file to .env and edit database credentials there
 
+```
+$ mv .env.example .env
+
+```
+
 4. Next, You need to run following commands  from your terminal
 
 ```
+$ php artisan key:generate
 $ php artisan migrate
 $ php artisan db:seed
 ```
